@@ -1,0 +1,23 @@
+{
+  "name": "wp-react-admin",
+  "version": "1.0.0",
+  "description": "React admin dashboard for WordPress",
+  "author": "Midas Moradi",
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "build": "wp-scripts build assets/src/index.js --output-path=build",
+    "start": "wp-scripts start assets/src/index.js --output-path=build",
+    "lint:js": "wp-scripts lint-js assets/src",
+    "format": "wp-scripts format assets/src"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.0.0"
+  },
+  "dependencies": {
+    "@wordpress/api-fetch": "^7.0.0",
+    "@wordpress/components": "^28.0.0",
+    "@wordpress/element": "^6.0.0",
+    "@wordpress/i18n": "^5.0.0",
+    "@wordpress/icons": "^10.0.0"
+  }
+}
